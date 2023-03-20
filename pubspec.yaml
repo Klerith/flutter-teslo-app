@@ -1,0 +1,31 @@
+name: teslo_shop
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  dio: ^5.0.3
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.0.2
+  flutter_riverpod: ^2.3.2
+  formz: ^0.5.0+1
+  go_router: ^6.2.0
+  google_fonts: ^4.0.3
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/loaders/
+    - assets/images/
+    - google_fonts/montserrat_alternates/
