@@ -72,9 +72,11 @@ class _RegisterForm extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 50),
       child: Column(
         children: [
-          const SizedBox( height: 50 ),
+          // const SizedBox( height: 30 ),
+          const Spacer(flex: 2),
           Text('Nueva cuenta', style: textStyles.titleMedium ),
-          const SizedBox( height: 50 ),
+          const Spacer(),
+          // const SizedBox( height: 30 ),
 
           const CustomTextFormField(
             label: 'Nombre completo',
